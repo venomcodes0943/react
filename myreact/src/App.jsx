@@ -1,6 +1,11 @@
+import NewApp from "./newApp"
+import Card from "./card"
 function App() {
   return (
-    <h1 className="App">With Haseeb</h1>
+    <>
+      <NewApp />
+      <Card />
+    </>
   )
 }
 

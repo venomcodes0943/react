@@ -1,6 +1,10 @@
+import Card from "./Card";
 function App() {
   return (
-    <h1 className="App">Hello World With Haseeb</h1>
+    <>
+      <h1 className="head">Welcome To react</h1>
+      <Card />
+    </>
   );
 }
 
