@@ -1,22 +1,24 @@
 function createElementNow(element, placeToPlce) {
-    const domElement = document.createElement(element.type);
-    domElement.innerHTML = reactElement.children;
-    for (const key in reactElement.props) {
-        const value = reactElement.props[key]
-        domElement.setAttribute(key, value);
-    }
-    placeToPlce.appendChild(domElement);
+    const elementList = element.multitype
+    elementList.forEach(ele => {
+        const domElement = document.createElement(ele);
+        domElement.innerHTML = element.children;
+        for (const key in element.props) {
+            const value = element.props[key]
+            domElement.setAttribute(key, value);
+        }
+        placeToPlce.appendChild(domElement);
+    });
 }
 
 const reactElement = {
-    type: "div",
+    multitype: ["div", "h1"],
     props: {
         class: 'App',
-        id: 'NewApp'
     },
     children: ""
 }
-reactElement.children = `Hello This is ${reactElement.type}`
+reactElement.children = `Hello This is The Elements`
 
 
 const mainContainer = document.querySelector('#root');
