@@ -1,10 +1,10 @@
 import NewApp from "./newApp"
-import Card from "./card"
+// import Card from "./card"
 function App() {
   return (
     <>
       <NewApp />
-      <Card />
+      {/* <Card /> */}
     </>
   )
 }
