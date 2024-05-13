@@ -12,7 +12,7 @@ function App() {
           <button style={{ backgroundColor: "blue" }} onClick={() => setColor("blue")} className="tracking-wide px-4 py-1 rounded font-bold outline-none">Blue</button>
           <button style={{ backgroundColor: "green" }} onClick={() => setColor("green")} className="tracking-wide px-4 py-1 rounded font-bold outline-none">Green</button>
           <button style={{ backgroundColor: "#FF69B4" }} onClick={() => setColor("#FF69B4")} className="tracking-wide px-4 py-1 rounded font-bold outline-none">Hotpink</button>
-          <button style={{ backgroundColor: "black" }} onClick={() => setColor("black")} className="tracking-wide px-4 py-1 font-bold outline-none">Black</button>
+          <button style={{ backgroundColor: "black" }} onClick={() => setColor("black")} className="tracking-wide px-4 py-1 font-bold rounded outline-none">Black</button>
           <button style={{ backgroundColor: "fuchsia" }} onClick={() => setColor("fuchsia")} className="tracking-wide px-4 py-1 rounded font-bold outline-none">Fuchsia</button>
           <button style={{ backgroundColor: "#FF8C00" }} onClick={() => setColor("#FF8C00")} className="tracking-wide px-4 py-1 rounded font-bold outline-none">Orange</button>
           <button style={{ backgroundColor: "#4B0082" }} onClick={() => setColor("#4B0082")} className="tracking-wide px-4 py-1 rounded font-bold outline-none">Indigo</button>
